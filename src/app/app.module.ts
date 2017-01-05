@@ -13,6 +13,7 @@ import { StoreComponent } from './store/store.component';
 import { StoreItemComponent } from './store/store-item.component';
 import { ShoppingCartComponent } from "./store/shopping-cart.component";
 import { SignupFormComponent } from './user/user-signup/user-signup.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SignupFormComponent } from './user/user-signup/user-signup.component';
     StoreItemComponent,
     ShoppingCartComponent,
     SignupFormComponent,
+    UserProfileComponent,
   ],
   imports: [
     BrowserModule,
